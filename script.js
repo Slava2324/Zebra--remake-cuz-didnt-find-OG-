@@ -1,17 +1,11 @@
 let road = document.querySelector('.road');
 
-console.log(road);
 
 road.style.border = '2px solid gray';
 
 let black = document.querySelectorAll('.black-stripe'); 
 let white = document.querySelectorAll('.white-stripe'); 
 let buttons = document.querySelectorAll('.buttons button'); 
-
-console.log(black);
-console.log(white);
-console.log(white[0]);
-console.log(white[1]);
 
 black.forEach(function(black_block){
   black_block.style.backgroundColor = 'black';
